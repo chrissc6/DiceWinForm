@@ -21,7 +21,7 @@ namespace DiceWinForm
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //0
         }
     }
 }
