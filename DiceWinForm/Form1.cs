@@ -16,5 +16,12 @@ namespace DiceWinForm
         {
             InitializeComponent();
         }
+
+        Random rng = new Random();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
