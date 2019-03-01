@@ -210,7 +210,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2Game);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Simple Craps";
             this.ResumeLayout(false);
             this.PerformLayout();
